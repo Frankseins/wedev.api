@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yrwbe/QaFgk=",
+  "dgSpecHash": "qohYUZc6ALE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Shadow\\Documents\\Repos\\wedev.api\\wedev.api\\wedev.api.csproj",
+  "projectFilePath": "C:\\Users\\Shadow\\Documents\\Repos\\wedev.api\\wedev.api\\wedev.Presentation.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Shadow\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Shadow\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",

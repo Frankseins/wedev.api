@@ -1,0 +1,12 @@
+C:\Users\Shadow\Documents\Repos\wedev.api\wedev.Infrastructure\bin\Debug\net8.0\wedev.Infrastructure.deps.json
+C:\Users\Shadow\Documents\Repos\wedev.api\wedev.Infrastructure\bin\Debug\net8.0\wedev.Infrastructure.dll
+C:\Users\Shadow\Documents\Repos\wedev.api\wedev.Infrastructure\bin\Debug\net8.0\wedev.Infrastructure.pdb
+C:\Users\Shadow\Documents\Repos\wedev.api\wedev.Infrastructure\obj\Debug\net8.0\wedev.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shadow\Documents\Repos\wedev.api\wedev.Infrastructure\obj\Debug\net8.0\wedev.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Shadow\Documents\Repos\wedev.api\wedev.Infrastructure\obj\Debug\net8.0\wedev.Infrastructure.AssemblyInfo.cs
+C:\Users\Shadow\Documents\Repos\wedev.api\wedev.Infrastructure\obj\Debug\net8.0\wedev.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Shadow\Documents\Repos\wedev.api\wedev.Infrastructure\obj\Debug\net8.0\wedev.Infrastructure.sourcelink.json
+C:\Users\Shadow\Documents\Repos\wedev.api\wedev.Infrastructure\obj\Debug\net8.0\wedev.Infrastructure.dll
+C:\Users\Shadow\Documents\Repos\wedev.api\wedev.Infrastructure\obj\Debug\net8.0\refint\wedev.Infrastructure.dll
+C:\Users\Shadow\Documents\Repos\wedev.api\wedev.Infrastructure\obj\Debug\net8.0\wedev.Infrastructure.pdb
+C:\Users\Shadow\Documents\Repos\wedev.api\wedev.Infrastructure\obj\Debug\net8.0\ref\wedev.Infrastructure.dll

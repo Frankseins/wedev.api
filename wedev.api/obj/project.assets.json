@@ -453,9 +453,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Shadow\\Documents\\Repos\\wedev.api\\wedev.api\\wedev.api.csproj",
-      "projectName": "wedev.api",
-      "projectPath": "C:\\Users\\Shadow\\Documents\\Repos\\wedev.api\\wedev.api\\wedev.api.csproj",
+      "projectUniqueName": "C:\\Users\\Shadow\\Documents\\Repos\\wedev.api\\wedev.api\\wedev.Presentation.Api.csproj",
+      "projectName": "wedev.Presentation.Api",
+      "projectPath": "C:\\Users\\Shadow\\Documents\\Repos\\wedev.api\\wedev.api\\wedev.Presentation.Api.csproj",
       "packagesPath": "C:\\Users\\Shadow\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Shadow\\Documents\\Repos\\wedev.api\\wedev.api\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\wedev.Presentation.Api.props" />
+</Project>

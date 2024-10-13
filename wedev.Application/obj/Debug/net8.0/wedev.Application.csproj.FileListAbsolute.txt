@@ -1,0 +1,12 @@
+C:\Users\Shadow\Documents\Repos\wedev.api\wedev.Application\bin\Debug\net8.0\wedev.Application.deps.json
+C:\Users\Shadow\Documents\Repos\wedev.api\wedev.Application\bin\Debug\net8.0\wedev.Application.dll
+C:\Users\Shadow\Documents\Repos\wedev.api\wedev.Application\bin\Debug\net8.0\wedev.Application.pdb
+C:\Users\Shadow\Documents\Repos\wedev.api\wedev.Application\obj\Debug\net8.0\wedev.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shadow\Documents\Repos\wedev.api\wedev.Application\obj\Debug\net8.0\wedev.Application.AssemblyInfoInputs.cache
+C:\Users\Shadow\Documents\Repos\wedev.api\wedev.Application\obj\Debug\net8.0\wedev.Application.AssemblyInfo.cs
+C:\Users\Shadow\Documents\Repos\wedev.api\wedev.Application\obj\Debug\net8.0\wedev.Application.csproj.CoreCompileInputs.cache
+C:\Users\Shadow\Documents\Repos\wedev.api\wedev.Application\obj\Debug\net8.0\wedev.Application.sourcelink.json
+C:\Users\Shadow\Documents\Repos\wedev.api\wedev.Application\obj\Debug\net8.0\wedev.Application.dll
+C:\Users\Shadow\Documents\Repos\wedev.api\wedev.Application\obj\Debug\net8.0\refint\wedev.Application.dll
+C:\Users\Shadow\Documents\Repos\wedev.api\wedev.Application\obj\Debug\net8.0\wedev.Application.pdb
+C:\Users\Shadow\Documents\Repos\wedev.api\wedev.Application\obj\Debug\net8.0\ref\wedev.Application.dll
