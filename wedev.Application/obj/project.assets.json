@@ -8,32 +8,25 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Shadow\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/frankbersch/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Shadow\\Documents\\Repos\\wedev.api\\wedev.Application\\wedev.Application.csproj",
+      "projectUniqueName": "/Users/frankbersch/RiderProjects/wedev.api/wedev.Application/wedev.Application.csproj",
       "projectName": "wedev.Application",
-      "projectPath": "C:\\Users\\Shadow\\Documents\\Repos\\wedev.api\\wedev.Application\\wedev.Application.csproj",
-      "packagesPath": "C:\\Users\\Shadow\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Shadow\\Documents\\Repos\\wedev.api\\wedev.Application\\obj\\",
+      "projectPath": "/Users/frankbersch/RiderProjects/wedev.api/wedev.Application/wedev.Application.csproj",
+      "packagesPath": "/Users/frankbersch/.nuget/packages/",
+      "outputPath": "/Users/frankbersch/RiderProjects/wedev.api/wedev.Application/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Shadow\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/frankbersch/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "/Users/frankbersch/.dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -72,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/frankbersch/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
