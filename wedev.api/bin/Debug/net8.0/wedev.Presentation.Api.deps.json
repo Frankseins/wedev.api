@@ -10,6 +10,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "9.0.0-rc.2.24474.1",
           "Swashbuckle.AspNetCore": "6.6.2",
+          "wedev.Application": "1.0.0",
           "wedev.Infrastructure": "1.0.0"
         },
         "runtime": {
@@ -743,6 +744,19 @@
         }
       },
       "System.Threading.Channels/7.0.0": {},
+      "wedev.Application/1.0.0": {
+        "dependencies": {
+          "wedev.Domain": "1.0.0",
+          "wedev.Infrastructure": "1.0.0",
+          "wedev.Shared": "1.0.0"
+        },
+        "runtime": {
+          "wedev.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "wedev.Domain/1.0.0": {
         "runtime": {
           "wedev.Domain.dll": {
@@ -761,6 +775,14 @@
         },
         "runtime": {
           "wedev.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "wedev.Shared/1.0.0": {
+        "runtime": {
+          "wedev.Shared.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1152,12 +1174,22 @@
       "path": "system.threading.channels/7.0.0",
       "hashPath": "system.threading.channels.7.0.0.nupkg.sha512"
     },
+    "wedev.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "wedev.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "wedev.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "wedev.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

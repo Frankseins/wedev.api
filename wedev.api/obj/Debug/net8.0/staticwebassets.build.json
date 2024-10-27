@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "xOHatZ4yXKd2sPYQOGplbbDiUD7Y/+PQoqD5OfU96FU=",
-  "Source": "wedev.Presentation.Api",
-  "BasePath": "_content/wedev.Presentation.Api",
+  "Hash": "ELR/8c7y3rBkOxvyEKnFhOU6uEDTlH4O8enbXwoxaig=",
+  "Source": "wedev.WebApi",
+  "BasePath": "_content/wedev.WebApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

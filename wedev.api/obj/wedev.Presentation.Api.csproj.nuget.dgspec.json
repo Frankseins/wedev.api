@@ -27,6 +27,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "/Users/frankbersch/RiderProjects/wedev.api/wedev.Application/wedev.Application.csproj": {
+                "projectPath": "/Users/frankbersch/RiderProjects/wedev.api/wedev.Application/wedev.Application.csproj"
+              },
               "/Users/frankbersch/RiderProjects/wedev.api/wedev.Infrastructure/wedev.Infrastructure.csproj": {
                 "projectPath": "/Users/frankbersch/RiderProjects/wedev.api/wedev.Infrastructure/wedev.Infrastructure.csproj"
               }
@@ -74,6 +77,75 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/frankbersch/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/frankbersch/RiderProjects/wedev.api/wedev.Application/wedev.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/frankbersch/RiderProjects/wedev.api/wedev.Application/wedev.Application.csproj",
+        "projectName": "wedev.Application",
+        "projectPath": "/Users/frankbersch/RiderProjects/wedev.api/wedev.Application/wedev.Application.csproj",
+        "packagesPath": "/Users/frankbersch/.nuget/packages/",
+        "outputPath": "/Users/frankbersch/RiderProjects/wedev.api/wedev.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/frankbersch/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/Users/frankbersch/.dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/frankbersch/RiderProjects/wedev.api/wedev.Domain/wedev.Domain.csproj": {
+                "projectPath": "/Users/frankbersch/RiderProjects/wedev.api/wedev.Domain/wedev.Domain.csproj"
+              },
+              "/Users/frankbersch/RiderProjects/wedev.api/wedev.Infrastructure/wedev.Infrastructure.csproj": {
+                "projectPath": "/Users/frankbersch/RiderProjects/wedev.api/wedev.Infrastructure/wedev.Infrastructure.csproj"
+              },
+              "/Users/frankbersch/RiderProjects/wedev.api/wedev.Shared/wedev.Shared.csproj": {
+                "projectPath": "/Users/frankbersch/RiderProjects/wedev.api/wedev.Shared/wedev.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -214,6 +286,65 @@
               "version": "[9.0.0-rc.2, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/frankbersch/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/frankbersch/RiderProjects/wedev.api/wedev.Shared/wedev.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/frankbersch/RiderProjects/wedev.api/wedev.Shared/wedev.Shared.csproj",
+        "projectName": "wedev.Shared",
+        "projectPath": "/Users/frankbersch/RiderProjects/wedev.api/wedev.Shared/wedev.Shared.csproj",
+        "packagesPath": "/Users/frankbersch/.nuget/packages/",
+        "outputPath": "/Users/frankbersch/RiderProjects/wedev.api/wedev.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/frankbersch/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/Users/frankbersch/.dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",

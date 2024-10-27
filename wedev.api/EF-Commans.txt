@@ -1,6 +1,6 @@
 Migration 
 
-dotnet ef migrations add Initial --project wedev.Infrastructure/wedev.Infrastructure.csproj --startup-project wedev.Infrastructure/wedev.Infrastructure.csproj --context wedev.Infrastructure.GlobalDbContext --configuration Debug --output-dir Migrations
+dotnet ef migrations add Update --project wedev.Infrastructure/wedev.Infrastructure.csproj --startup-project wedev.Infrastructure/wedev.Infrastructure.csproj --context wedev.Infrastructure.GlobalDbContext --configuration Debug --output-dir Migrations
 
 UpdateDB
 

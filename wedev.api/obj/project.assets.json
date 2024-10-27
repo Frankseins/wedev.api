@@ -1158,6 +1158,31 @@
         "runtime": {
           "bin/placeholder/wedev.Infrastructure.dll": {}
         }
+      },
+      "wedev.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "wedev.Domain": "1.0.0",
+          "wedev.Infrastructure": "1.0.0",
+          "wedev.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/wedev.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/wedev.Service.dll": {}
+        }
+      },
+      "wedev.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/wedev.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/wedev.Shared.dll": {}
+        }
       }
     }
   },
@@ -3532,13 +3557,24 @@
       "type": "project",
       "path": "../wedev.Infrastructure/wedev.Infrastructure.csproj",
       "msbuildProject": "../wedev.Infrastructure/wedev.Infrastructure.csproj"
+    },
+    "wedev.Service/1.0.0": {
+      "type": "project",
+      "path": "../wedev.Service/wedev.Service.csproj",
+      "msbuildProject": "../wedev.Service/wedev.Service.csproj"
+    },
+    "wedev.Shared/1.0.0": {
+      "type": "project",
+      "path": "../wedev.Shared/wedev.Shared.csproj",
+      "msbuildProject": "../wedev.Shared/wedev.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.EntityFrameworkCore.Design >= 9.0.0-rc.2.24474.1",
       "Swashbuckle.AspNetCore >= 6.6.2",
-      "wedev.Infrastructure >= 1.0.0"
+      "wedev.Infrastructure >= 1.0.0",
+      "wedev.Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3547,9 +3583,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/frankbersch/RiderProjects/wedev.api/wedev.api/wedev.Presentation.Api.csproj",
-      "projectName": "wedev.Presentation.Api",
-      "projectPath": "/Users/frankbersch/RiderProjects/wedev.api/wedev.api/wedev.Presentation.Api.csproj",
+      "projectUniqueName": "/Users/frankbersch/RiderProjects/wedev.api/wedev.api/wedev.WebApi.csproj",
+      "projectName": "wedev.WebApi",
+      "projectPath": "/Users/frankbersch/RiderProjects/wedev.api/wedev.api/wedev.WebApi.csproj",
       "packagesPath": "/Users/frankbersch/.nuget/packages/",
       "outputPath": "/Users/frankbersch/RiderProjects/wedev.api/wedev.api/obj/",
       "projectStyle": "PackageReference",
@@ -3569,6 +3605,9 @@
           "projectReferences": {
             "/Users/frankbersch/RiderProjects/wedev.api/wedev.Infrastructure/wedev.Infrastructure.csproj": {
               "projectPath": "/Users/frankbersch/RiderProjects/wedev.api/wedev.Infrastructure/wedev.Infrastructure.csproj"
+            },
+            "/Users/frankbersch/RiderProjects/wedev.api/wedev.Service/wedev.Service.csproj": {
+              "projectPath": "/Users/frankbersch/RiderProjects/wedev.api/wedev.Service/wedev.Service.csproj"
             }
           }
         }
