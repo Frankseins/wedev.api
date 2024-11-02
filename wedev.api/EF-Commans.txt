@@ -4,5 +4,5 @@ dotnet ef migrations add Update --project wedev.Infrastructure/wedev.Infrastruct
 
 UpdateDB
 
-dotnet ef database update --project wedev.api/wedev.Presentation.Api.csproj --startup-project wedev.api/wedev.Presentation.Api.csproj --context wedev.Infrastructure.GlobalDbContext --configuration Debug
 
+dotnet ef database update_2 --project wedev.Infrastructure/wedev.Infrastructure.csproj --startup-project wedev.api/wedev.WebApi.csproj --context wedev.Infrastructure.GlobalDbContext --configuration Debug

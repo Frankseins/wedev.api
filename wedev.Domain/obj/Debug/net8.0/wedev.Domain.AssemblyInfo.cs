@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("wedev.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+945a0779c904067ddff0eb29243e39bceec9a6e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7259fba63042be24776966e05da970e911ee07e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("wedev.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("wedev.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

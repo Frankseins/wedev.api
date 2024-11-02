@@ -7,9 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\wedev.Auth\wedev.Auth.csproj" />
     <ProjectReference Include="..\wedev.Domain\wedev.Domain.csproj" />
     <ProjectReference Include="..\wedev.Infrastructure\wedev.Infrastructure.csproj" />
     <ProjectReference Include="..\wedev.Shared\wedev.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
   </ItemGroup>
 
 </Project>

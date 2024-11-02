@@ -9,7 +9,7 @@ using wedev.Service.Services;
 namespace wedev.WebApi.Controllers.Global
 {
     [ApiController]
-    [Route("Global/[controller]")]
+    [Route("global/[controller]")]
     public class RoleController : ControllerBase
     {
         private readonly GlobalServices _globalServices;

@@ -22,3 +22,4 @@ C:/Users/Shadow/Documents/Repos/wedev.api/wedev.Shared/obj/Debug/net8.0/ref/wede
 /Users/frankbersch/RiderProjects/wedev.api/wedev.Shared/obj/Debug/net8.0/refint/wedev.Shared.dll
 /Users/frankbersch/RiderProjects/wedev.api/wedev.Shared/obj/Debug/net8.0/wedev.Shared.pdb
 /Users/frankbersch/RiderProjects/wedev.api/wedev.Shared/obj/Debug/net8.0/ref/wedev.Shared.dll
+/Users/frankbersch/RiderProjects/wedev.api/wedev.Shared/obj/Debug/net8.0/wedev.Shared.csproj.AssemblyReference.cache

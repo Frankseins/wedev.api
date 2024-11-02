@@ -34,7 +34,7 @@ namespace wedev.WebApi.Controllers.Global
             return tenant != null ? Ok(tenant) : NotFound();
         }
 
-        [HttpPost]
+    [HttpPost]
      //   [Authorize]
         public async Task<IActionResult> CreateTenant([FromBody] TenantDto tenantDto)
         {

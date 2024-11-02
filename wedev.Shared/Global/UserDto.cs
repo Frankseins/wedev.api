@@ -23,10 +23,9 @@ namespace wedev.Shared.Global
         public DateTime? LockoutEnd { get; set; }
 
         [MaxLength(500)]
-        public string PasswordHash { get; set; } = null!;
-
+        public string PasswordHash { get; set; } = null!; // Für die Übertragung sensibler Daten vermeiden, falls nicht erforderlich
         [MaxLength(500)]
-        public string PasswordSalt { get; set; } = null!;
+        public string PasswordSalt { get; set; } = null!; // Für die Übertragung sensibler Daten vermeiden, falls nicht erforderlich
         public DateTime PasswordLastChanged { get; set; }
         public DateTime? LastLogin { get; set; }
 
@@ -37,10 +36,11 @@ namespace wedev.Shared.Global
         public string? SSOUserId { get; set; }
 
         public bool IsTwoFactorEnabled { get; set; }
-        public string? TwoFactorMethod { get; set; }
+        public int TwoFactorAttempts { get; set; } // Anzahl der 2FA-Versuche
+        public string? TwoFactorMethod { get; set; } // Methode für 2FA (optional)
 
         [MaxLength(500)]
-        public string? TwoFactorSecret { get; set; }
+        public string? TwoFactorSecret { get; set; } // Optional für 2FA-Geheimnis (z.B. für Authenticator)
         public DateTime? TwoFactorLastVerified { get; set; }
 
         public DateTime CreatedAt { get; set; }
@@ -48,13 +48,10 @@ namespace wedev.Shared.Global
 
         [MaxLength(255)]
         public string CreatedBy { get; set; } = null!;
-
         [MaxLength(255)]
         public string UpdatedBy { get; set; } = null!;
 
         // Tenant Information
         public ICollection<UserTenantDto> UserTenants { get; set; } = new List<UserTenantDto>();
     }
-
-
 }
