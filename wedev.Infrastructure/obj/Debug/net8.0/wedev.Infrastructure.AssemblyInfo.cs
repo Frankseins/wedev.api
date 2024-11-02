@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("wedev.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2d1d4a5bf15e499ca3b1537103975371f2a13a6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0fa0bdf8cf730c6655023f4f518c10fbb3387f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("wedev.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("wedev.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

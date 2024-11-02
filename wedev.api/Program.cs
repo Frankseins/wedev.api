@@ -10,7 +10,7 @@ using wedev.Service.Services.Global; // Vergewissern Sie sich, dass der Namespac
 var builder = WebApplication.CreateBuilder(args);
 
 // Hinzufügen von Konfigurationen und Dienstregistrierungen
-builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("JwtSettings"));
+//builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("JwtSettings"));
 builder.Services.AddDbContextFactory<GlobalDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("GlobalDatabase")));
 
@@ -37,8 +37,8 @@ app.UseSwagger();
 app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
-app.UseAuthentication();
-app.UseAuthorization();
+//app.UseAuthentication();
+//app.UseAuthorization();
 
 app.MapControllers();
 
