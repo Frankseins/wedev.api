@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("wedev.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7259fba63042be24776966e05da970e911ee07e3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2d1d4a5bf15e499ca3b1537103975371f2a13a6")]
 [assembly: System.Reflection.AssemblyProductAttribute("wedev.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("wedev.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

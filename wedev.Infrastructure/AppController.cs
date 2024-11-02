@@ -20,7 +20,7 @@ namespace wedev.WebApi.Controllers.Global
         }
 
         [HttpGet]
-        [Authorize]
+       // [Authorize]
         public async Task<ActionResult<IEnumerable<AppDto>>> GetAllApps()
         {
             return Ok(await _globalServices.GetAllAppsAsync());

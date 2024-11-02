@@ -1,16 +1,11 @@
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
-using wedev.Service.Services.Global;
-using wedev.Service.Services;
-using wedev.Infrastructure;
-using wedev.Auth.JWT;
-using wedev.Auth.Interfaces;
-using wedev.Auth.Services;
 using wedev.Auth.Common;
-using wedev.WebApi.Middleware;
+using wedev.Auth.Interfaces;
+using wedev.Auth.JWT;
+using wedev.Auth.Services;
+using wedev.Infrastructure;
+using wedev.Service.Services;
+using wedev.Service.Services.Global; // Vergewissern Sie sich, dass der Namespace für GlobalServices enthalten ist
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,7 +18,14 @@ builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddSingleton<JwtTokenGenerator>();
 builder.Services.AddScoped<PasswordHashing>();
+builder.Services.AddScoped<GlobalDbContext>();
 
+// Registrierung von GlobalServices
+builder.Services.AddScoped<TenantService>();
+builder.Services.AddScoped<GlobalServices>();
+builder.Services.AddScoped<AppService>();
+builder.Services.AddScoped<GroupService>();
+builder.Services.AddScoped<RoleService>();
 // Standarddienste hinzufügen
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -31,18 +33,12 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-//if (app.Environment.IsDevelopment())
-//{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-//}
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
-
-// JWT-Middleware korrekt in die Pipeline einfügen
-//app.UseMiddleware<JwtMiddleware>();
 
 app.MapControllers();
 
