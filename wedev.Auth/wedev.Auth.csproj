@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Konscious.Security.Cryptography.Argon2" Version="1.3.1" />
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+      <PackageReference Include="Microsoft.Extensions.Options" Version="9.0.0-rc.2.24473.5" />
+      <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.1.2" />
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.1.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\wedev.Domain\wedev.Domain.csproj" />
+      <ProjectReference Include="..\wedev.Infrastructure\wedev.Infrastructure.csproj" />
+      <ProjectReference Include="..\wedev.Shared\wedev.Shared.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Controllers\" />
+    </ItemGroup>
+
+</Project>
